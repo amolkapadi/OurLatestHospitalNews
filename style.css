@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: #f4f9fd;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+.d-flex p{
+    font-size: 15px !important;
+}
+.card-body h5{
+    font-size: 20px !important;
+    font-weight: 700;
+}
+.card-body p{
+    font-size: 14px;
+}
+.card{
+    cursor: pointer;
+    border-radius: 0px !important;
+}
+.card:hover{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px !important;  /*33 card number shadow**/
+
+}
+.card-img-top{
+    border-radius: 0px !important;
+}
+.btn-white:hover{
+    background-color: #19CE67 !important;
+    color: white !important;
+}
